@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>知识竞答</title>
+    <link href="/static/index.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rancho&effect=stonewash">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href="fonts.googleapis.com/css?family=Lato:400,900,400italic,700italic">
+    <link href="http://assets.codepen.io/assets/global/global-NoMQ-ff5904f08a8b33fbd4d3b6f3e2337cc1.css" rel="stylesheet" type="text/css" >
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="/static/index.js"></script>
+</head>
+<body>
+    <div class="all-title font-effect-stonewash" >12.9知识问答</div>
+
+    <div class="container">
+        <div class="question">
+            <div class="title font-effect-stonewash">题目</div>
+            <div class="title font-effect-stonewash">
+                <%=: content %>
+            </div>
+            <div class="option">
+                <a href="#" class="action-button shadow animate blue" id="A">A</a>
+                <a href="#" class="action-button shadow animate red" id="B">B</a>
+                <a href="#" class="action-button shadow animate green" id="C">C</a>
+                <a href="#" class="action-button shadow animate yellow" id="D">D</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
